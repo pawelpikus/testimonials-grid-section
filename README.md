@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot.PNG.png)
+![](./images/screenshot.PNG)
 
 - Solution URL: [Github](https://github.com/pawelpikus/testimonials-grid-section)
 - Live Site URL: [Github Pages](https://pawelpikus.github.io/testimonials-grid-section/)
