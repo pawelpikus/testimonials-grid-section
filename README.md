@@ -50,7 +50,6 @@ On to JS!
 
 ## Author
 
-- 
 - Frontend Mentor - [@pawelpikus](https://www.frontendmentor.io/profile/pawelpikus)
 
 ## Acknowledgments
