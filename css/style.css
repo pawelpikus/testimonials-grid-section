@@ -1,0 +1,136 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+h2{
+    margin: .5em 0;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 3em;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.avatar-img{
+    border-radius: 50%;
+    width: 40px;
+}
+
+.avatar-container{
+    display: flex;
+    gap: 1em;
+}
+.avatar-name{
+    font-weight: 600;
+}
+
+.container{
+    width: 90%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 2em auto;
+    
+}
+
+/* Typography */
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: .8125rem;
+    
+}
+
+.avatar-status{
+    opacity: .5;
+    font-size: .7rem;
+    
+}
+
+p{
+    opacity: .7;
+    line-height: 1.4;
+}
+
+/* sections */
+
+.section{
+    padding: 1.5em 2em;
+    border-radius: 5px;
+    box-shadow: 3px 5px 40px rgba(0,0,0,0.3)
+    
+}
+
+.section-one,
+.section-two,
+.section-four{
+    color: hsl(0, 0%, 100%);
+}
+
+.section-one{
+    background: url("../images/bg-pattern-quotation.svg"), hsl(263, 55%, 52%);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+}
+
+.section-two{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.section-three,
+.section-five{
+    background-color: hsl(0, 0%, 100%);
+}
+    
+.section-four{
+    background-color: hsl(219, 29%, 14%);
+}
+
+@media (min-width: 1250px) {
+
+    .container{
+        max-width: 1440px;
+        display: grid;
+        grid-template: 50% 50% / 20% 20% 20% 20%;
+        justify-content: center;
+    }
+    
+    .section-one{
+        grid-row: 1;
+        grid-column: 1 / 3;
+
+    }
+
+    .section-two{
+        grid-column: 3;
+    }
+
+    .section-four{
+        grid-row: 2;
+        grid-column: 2 / 4;
+    }
+
+    .section-five{
+        grid-column: 4;
+        grid-row: 1 / 3;
+
+    }
+}
